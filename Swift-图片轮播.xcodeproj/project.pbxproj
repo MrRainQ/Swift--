@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		CBC9C3D419E7C5C6003FC0DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9C3D319E7C5C6003FC0DE /* AppDelegate.swift */; };
-		CBC9C3D619E7C5C6003FC0DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9C3D519E7C5C6003FC0DE /* ViewController.swift */; };
 		CBC9C3D919E7C5C6003FC0DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC9C3D719E7C5C6003FC0DE /* Main.storyboard */; };
 		CBC9C3DB19E7C5C6003FC0DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC9C3DA19E7C5C6003FC0DE /* Images.xcassets */; };
 		CBC9C3DE19E7C5C6003FC0DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBC9C3DC19E7C5C6003FC0DE /* LaunchScreen.xib */; };
 		CBC9C3EA19E7C5C6003FC0DE /* Swift_____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9C3E919E7C5C6003FC0DE /* Swift_____Tests.swift */; };
+		CBC9C3F419E7C62D003FC0DE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9C3F319E7C62D003FC0DE /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,13 @@
 		CBC9C3CE19E7C5C6003FC0DE /* Swift-图片轮播.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-图片轮播.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBC9C3D219E7C5C6003FC0DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBC9C3D319E7C5C6003FC0DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CBC9C3D519E7C5C6003FC0DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CBC9C3D819E7C5C6003FC0DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBC9C3DA19E7C5C6003FC0DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CBC9C3DD19E7C5C6003FC0DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CBC9C3E319E7C5C6003FC0DE /* Swift-图片轮播Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-图片轮播Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBC9C3E819E7C5C6003FC0DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBC9C3E919E7C5C6003FC0DE /* Swift_____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift_____Tests.swift"; sourceTree = "<group>"; };
+		CBC9C3F319E7C62D003FC0DE /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				CBC9C3D319E7C5C6003FC0DE /* AppDelegate.swift */,
-				CBC9C3D519E7C5C6003FC0DE /* ViewController.swift */,
+				CBC9C3F319E7C62D003FC0DE /* MainViewController.swift */,
 				CBC9C3D719E7C5C6003FC0DE /* Main.storyboard */,
 				CBC9C3DA19E7C5C6003FC0DE /* Images.xcassets */,
 				CBC9C3DC19E7C5C6003FC0DE /* LaunchScreen.xib */,
@@ -212,8 +212,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBC9C3D619E7C5C6003FC0DE /* ViewController.swift in Sources */,
 				CBC9C3D419E7C5C6003FC0DE /* AppDelegate.swift in Sources */,
+				CBC9C3F419E7C62D003FC0DE /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +405,7 @@
 				CBC9C3EF19E7C5C6003FC0DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBC9C3F019E7C5C6003FC0DE /* Build configuration list for PBXNativeTarget "Swift-图片轮播Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				CBC9C3F219E7C5C6003FC0DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
