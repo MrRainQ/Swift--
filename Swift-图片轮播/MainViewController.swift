@@ -32,7 +32,7 @@ class MainViewController: UIViewController,UIScrollViewDelegate {
             imageView.frame = CGRectMake(x, 0, width, height)
             scrollView.addSubview(imageView)
         }
-        
+        scrollView.pagingEnabled = true
         scrollView.contentSize = CGSizeMake(5 * width, 0)        
         pageControl.numberOfPages = 5
         
@@ -54,7 +54,7 @@ class MainViewController: UIViewController,UIScrollViewDelegate {
     // 下一页自动轮播
     func nextPage(){
        
-        var currentPage:CGFloat = CGFloat(pageControl.currentPage)
+        var currentPage = CGFloat(pageControl.currentPage)
         currentPage++
         if currentPage == 5 {
             currentPage = 0
